@@ -1,0 +1,198 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  * {
+      box-sizing: border-box;
+      font-family: 'Big Shoulders Display', cursive;
+      font-family: 'Lexend Deca', sans-serif;
+      font-family: 'Open Sans Condensed', sans-serif;
+  }
+  
+  html, body, div, img {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  
+  body {
+      line-height: 1;
+      background: #12c2e9;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+      background-image: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,     Safari 7+ */
+  }
+  
+
+
+
+.background-gradient {
+    max-width: 1000px;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+
+
+
+.flexnav ul {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    max-width: 1000px;
+    border: 2px solid black;
+    list-style: none;
+    justify-content: space-around;
+    background: 0 0 0 0.2px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    background: 0 0 0 0.2;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+a.fa fa-twitter {
+    color: white;
+}
+
+.fa fa-facebook {
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+li .social {
+    color: white;
+}
+
+.social facebook {
+    color: white;
+}
+
+i .fa fa-facebook {
+    color: white;
+}
+
+.wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   
+}
+
+.item {
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.item-1 {
+    width: 55vw;
+    height: 50vh;
+    background-color: rgba(255, 0, 0, 0.301);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    flex-grow: 1;
+    background-image: url("https://picsum.photos/200/300");
+    width: 75vw;
+    background-size: cover;
+    background-position: center;
+    
+   
+    
+    
+}
+
+.item-6 {
+    width: 55vw;
+    background-color: rgba(0, 17, 255, 0.301);
+    flex-grow: 3;
+}
+
+.item-2 {
+    /*width: 5vw;*/
+    background-color: rgba(255, 255, 255, 0.308);
+    flex-grow: 1;
+    flex-shrink: 2;
+    
+    
+}
+
+.item-5 {
+    /*width: 5vw;*/
+    background-color: rgba(30, 255, 0, 0.288);
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.item-3 {
+    /*width: 20vw;*/
+    background-color: rgba(162, 12, 221, 0.349);
+    flex-grow: 1;
+    
+}
+
+.item-4 {
+    /*width: 20vw;*/
+    background-color:rgba(0, 255, 13, 0.24);
+    flex-grow: 1;
+
+}
+
+
+
+@media screen and (max-width: 500px){
+    .flexnav  ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .item-1 {
+        width: 50%;
+    }
+}
